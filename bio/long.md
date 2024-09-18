@@ -8,9 +8,7 @@ At Salesforce, Jina was the founding designer on the [Salesforce Lightning Desig
 
 Afterwards, Jina led design systems and operations for Amazon’s no-code app builder, [Honeycode][]. They supported the team with visual systems direction, accessibility, frontend development best practices, managing and rolling out design tool access, setting up workshops, and more.
 
-At [Asana][] Jina managed the designers for the Asana Design System, and grew the team from 2 design systems designers to 5 designers across design systems, accessibility, visual design, and mobile foundations.
-
-And most recently, at Google, Jina managed the design and developer advocates for [Material Design][]. 
+At [Microsoft][], Jina is a Principal Product Designer working in design systems. Prior at Google, Jina managed the design and developer advocates for [Material Design][], and at [Asana][] Jina managed the designers for the Asana Design System, and grew the team from 2 design systems designers to 5 designers across design systems, accessibility, visual design, and mobile foundations.
 
 Jina has also advised design system teams, products, and startups. At Opvitae, they are an advisory board member focused on UX and design. They advise Haiku, the company that created Diez, a design token framework tool. Jina also was a committee lead for [AIGA San Francisco][], where they helped with social and content promotion.
 
@@ -49,6 +47,7 @@ They have been said to be one of the most cheerful goths.
 [international paper]: http://www.internationalpaper.com/
 [mass.gov]: https://www.mass.gov/
 [material design]: https://m3.material.io/
+[microsoft]: https://www.microsoft.com/
 [memphis brooks museum of art]: http://www.brooksmuseum.org/
 [net magazine]: https://www.creativebloq.com/net-magazine
 [no-code conf]: https://webflow.com/blog/no-code-conf-2021-new-speakers-full-agenda

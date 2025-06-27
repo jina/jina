@@ -56,9 +56,6 @@
 				"**/*.md",
 				".gitignore",
 				".markdownlint-cli2.yaml"
-			],
-			"output": [
-				".eslintcache"
 			]
 		},
 		"format": {

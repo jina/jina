@@ -1,7 +1,14 @@
 {
-	"editor.codeActionsOnSave": { "source.fixAll": "always" },
+	"editor.codeActionsOnSave": {
+		"source.addMissingImports": "always",
+		"source.fixAll": "always",
+		"source.organizeLinkDefinitions": "always",
+		"source.removeUnusedImports": "always",
+	},
 	"editor.defaultFormatter": "esbenp.prettier-vscode",
 	"editor.formatOnSave": true,
+	"eslint.probe": ["javascript", "json", "jsonc", "markdown", "yaml"],
+	"eslint:run": "onSave",
 	"files.trimFinalNewlines": true,
 	"markdown.updateLinksOnFileMove.enabled": "prompt",
 }

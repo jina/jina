@@ -3,6 +3,7 @@
 ## SOURCE CODE
 *.json text
 *.md   text
+*.yml  text
 
 ## DOCUMENTATION
 LICENSE text

@@ -1,5 +1,24 @@
 {
 	"name": "jina",
+	"type": "module",
 	"private": true,
-	"type": "module"
+	"scripts": {
+		"format": "wireit"
+	},
+	"devDependencies": {
+		"prettier": "^3.6.2",
+		"prettier-plugin-pkg": "^0.21.1",
+		"prettier-plugin-sort-json": "^4.1.1",
+		"wireit": "^0.14.12"
+	},
+	"wireit": {
+		"format": {
+			"command": "npx prettier . --cache --write",
+			"files": [
+				"**/*.{json,md}",
+				".editorconfig",
+				"LICENSE"
+			]
+		}
+	}
 }

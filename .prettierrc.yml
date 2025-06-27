@@ -1,0 +1,22 @@
+singleQuote: true
+
+plugins:
+  - prettier-plugin-sort-json
+  - prettier-plugin-pkg
+
+# ------------------------------------------------------------------------------
+# prettier-plugin-sort-json
+
+jsonRecursiveSort: true
+jsonSortOrder: '{"*": "caseInsensitiveNumeric"}'
+
+# ------------------------------------------------------------------------------
+# Overrides
+
+overrides:
+  - files: .vscode/*.json
+    options:
+      parser: jsonc
+  - files: LICENSE
+    options:
+      parser: markdown

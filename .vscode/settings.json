@@ -1,6 +1,7 @@
 {
 	"editor.codeActionsOnSave": { "source.fixAll": "always" },
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
 	"editor.formatOnSave": true,
 	"files.trimFinalNewlines": true,
-	"markdown.updateLinksOnFileMove.enabled": "prompt"
+	"markdown.updateLinksOnFileMove.enabled": "prompt",
 }

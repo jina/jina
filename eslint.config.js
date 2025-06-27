@@ -41,7 +41,7 @@ export default defineConfig([
 	},
 
 	{
-		files: ['**/*.yml'],
+		files: ['**/*.{yaml,yml}'],
 		languageOptions: yml.configs['flat/standard'][1].languageOptions,
 		plugins: { yml },
 		rules: {

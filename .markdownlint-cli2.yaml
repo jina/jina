@@ -1,0 +1,36 @@
+config:
+  extends: markdownlint/style/prettier
+
+  code-block-style:
+    style: fenced
+
+  code-fence-style:
+    style: backtick
+
+  emphasis-style:
+    style: underscore
+
+  heading-style:
+    style: atx
+
+  hr-style:
+    style: ---
+
+  no-duplicate-heading:
+    siblings_only: true
+
+  strong-style:
+    style: asterisk
+
+  ol-prefix:
+    style: ordered
+
+  ul-style:
+    style: dash
+
+gitignore: true
+
+ignores:
+  - node_modules/
+
+showFound: true

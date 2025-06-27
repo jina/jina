@@ -1,0 +1,12 @@
+* text=auto
+
+## SOURCE CODE
+*.json text
+*.md   text
+
+## DOCUMENTATION
+LICENSE text
+
+## CONFIGS
+.editorconfig  text
+.gitattributes text

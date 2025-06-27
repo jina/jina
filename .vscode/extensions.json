@@ -1,1 +1,7 @@
-{ "recommendations": ["EditorConfig.EditorConfig"] }
+{
+	"recommendations": [
+		"EditorConfig.EditorConfig",
+		"esbenp.prettier-vscode",
+		"google.wireit",
+	],
+}

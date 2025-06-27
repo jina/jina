@@ -1,0 +1,6 @@
+{
+	"editor.codeActionsOnSave": { "source.fixAll": "always" },
+	"editor.formatOnSave": true,
+	"files.trimFinalNewlines": true,
+	"markdown.updateLinksOnFileMove.enabled": "prompt"
+}

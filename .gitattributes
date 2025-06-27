@@ -1,6 +1,7 @@
 * text=auto
 
 ## SOURCE CODE
+*.js   text
 *.json text
 *.md   text
 *.yml  text

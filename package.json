@@ -22,6 +22,7 @@
 		"eslint-plugin-only-warn": "^1.1.0",
 		"eslint-plugin-yml": "^1.18.0",
 		"globals": "^16.2.0",
+		"latest-version": "^9.0.0",
 		"markdownlint": "^0.38.0",
 		"markdownlint-cli2": "^0.18.1",
 		"prettier": "^3.6.2",
@@ -64,16 +65,13 @@
 		"format": {
 			"command": "echo 'Formatting...'",
 			"dependencies": [
+				"format:prettier",
 				"format:eslint",
-				"format:markdownlint",
-				"format:prettier"
+				"format:markdownlint"
 			]
 		},
 		"build": {
 			"command": "npx @11ty/eleventy",
-			"dependencies": [
-				"format"
-			],
 			"files": [
 				"eleventy.config.js"
 			]

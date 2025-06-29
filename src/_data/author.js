@@ -1,9 +1,14 @@
-import _ from 'lodash';
-
-const firstName = 'Jina';
+import slugify from '../_includes/helpers/slugify.js';
 
 export default {
-	name: `${firstName} Anne`,
+	name: {
+		first: 'Jina',
+		toString() {
+			return [this.first, 'Anne'].join(' ');
+		},
+	},
 
-	username: { github: _.kebabCase(firstName) },
+	get username() {
+		return { default: slugify(this.name.first), github: this.default };
+	},
 };
